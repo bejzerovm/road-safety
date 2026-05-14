@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['0', '1']
+
+roboflow:
+  workspace: test-hrpis
+  project: label-ln7qk-zszyq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-hrpis/label-ln7qk-zszyq/dataset/1
